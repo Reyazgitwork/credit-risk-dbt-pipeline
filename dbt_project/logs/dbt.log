@@ -1,0 +1,30 @@
+[0m09:48:17.034012 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000242932256A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024290CE0190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024293CD7610>]}
+
+
+============================== 09:48:17.042539 | bcb2066e-e218-477e-9031-3ec4c722c391 ==============================
+[0m09:48:17.042539 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:48:17.043396 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\SK MOHAMMAD REYAZ\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init credit_risk_dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:48:17.096375 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\SK MOHAMMAD REYAZ\.dbt
+[0m09:48:17.102431 [debug] [MainThread]: Starter project path: C:\Users\SK MOHAMMAD REYAZ\credit-risk-dbt-pipeline\venv\Lib\site-packages\dbt\include\starter_project
+[0m09:48:17.144219 [info ] [MainThread]: 
+Your new dbt project "credit_risk_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:48:17.144940 [info ] [MainThread]: Setting up your profile.
+[0m09:48:42.380238 [info ] [MainThread]: Profile credit_risk_dbt written to C:\Users\SK MOHAMMAD REYAZ\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m09:48:42.382101 [debug] [MainThread]: Command `dbt init` succeeded at 09:48:42.381840 after 25.52 seconds
+[0m09:48:42.382560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002429545A190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000242954BFE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000242954F4D10>]}
+[0m09:48:42.383063 [debug] [MainThread]: Flushing usage events
+[0m09:48:43.213641 [debug] [MainThread]: An error was encountered while trying to flush usage events

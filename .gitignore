@@ -1,0 +1,7 @@
+data_generator/output/
+venv/
+__pycache__/
+*.pyc
+dbt_project/credit_risk_dbt/target/
+dbt_project/credit_risk_dbt/logs/
+dbt_project/credit_risk_dbt/dev.duckdb
